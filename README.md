@@ -22,8 +22,8 @@ Principalmente los siguientes aspectos:
     * Clonar el fork a su máquina local  `git clone git@github.com:USERNAME/FORKED-PROJECT.git`
     * Crear un `branch` en su cuenta de GitHub utilizando su nombre completo.
 6. **Al finalizar**, existen 2 (dos) opciones para entregar su proyecto:
-    * 1) Realizar un `Commit` de su proyecto, **enviar un `Pull Request` al branch con su NOMBRE**, y notificar a la siguiente dirección de correo electrónico  [d.villanueva@loro.com.co](mailto:d.villanueva@loro.com.co) y [e.angel@loro.com.co](mailto:e.angel@loro.com.co).
-    * 2) Crear un archivo comprimido (_.zip_ o _.rar_) de su proyecto y enviar a la siguiente dirección de correo electrónico  [d.villanueva@loro.com.co](mailto:d.villanueva@loro.com.co) y [e.angel@loro.com.co](mailto:e.angel@loro.com.co).
+    * 1) Realizar un `Commit` de su proyecto, **enviar un `Pull Request` al branch con su NOMBRE**, y notificar a la siguiente direcciones de correo electrónico  [d.villanueva@loro.com.co](mailto:d.villanueva@loro.com.co) y [e.angel@loro.com.co](mailto:e.angel@loro.com.co).
+    * 2) Crear un archivo comprimido (_.zip_ o _.rar_) de su proyecto y enviar a la siguiente direcciones de correo electrónico  [d.villanueva@loro.com.co](mailto:d.villanueva@loro.com.co) y [e.angel@loro.com.co](mailto:e.angel@loro.com.co).
 
 ## EJERCICIO PRÁCTICO
 **Objetivo:** Crear una aplicación que ayude a obtener una lista de usuarios y muestre la información de sus perfiles, explotando el API Rest pública de GitHub https://api.github.com/search/users?q=YOUR_NAME.
@@ -36,7 +36,7 @@ Principalmente los siguientes aspectos:
 
     - Mostrar los primeros 10 usuarios del resultado de la búsqueda (List), incluyendo su nombre de usuario (`'user.login'`) y el id (`'user.id'`) de cada registro.
 
-    - Convertir cada Perfil de usuario en un enlace, para que al hacer clic en cada registro, navegue a una ruta que incluya la propiedad `'user.login'` como parámetro (Route).
+    - Convertir cada Perfil de usuario en un enlace para que al hacer clic en cada registro navegue a una ruta que incluya la propiedad `'user.login'` como parámetro (Route).
 
     - Crear un componente independiente en el que se lea el parámetro de la URL (User Details), y a continuación, obtenga los datos de dicho usuario mediante la siguiente API: https://api.github.com/users/YOUR_NAME
 
